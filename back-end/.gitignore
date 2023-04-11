@@ -129,5 +129,5 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-.Dockerfile
-.docker-compose.yaml
+Dockerfile
+docker-compose.yaml
