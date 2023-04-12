@@ -1,5 +1,3 @@
-DROP DATABASE IF EXISTS informacoes;
-
 USE informacoes;
 
 CREATE TABLE
