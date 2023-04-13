@@ -7,14 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json ."
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json .",
+    "migration": "node -e \"require('./init/utils').runMigration()\"",
+    "seed": "node -e \"require('./init/utils').runSeed()\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "dotenv": "^16.0.3",
     "express": "4.17.1",
+    "iconv-lite": "^0.6.3",
     "mysql2": "2.3.3"
   },
   "devDependencies": {
