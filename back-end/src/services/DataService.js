@@ -6,5 +6,5 @@ const getData = async () => {
   };
 
   module.exports = {
-    getData
-  }
+    getData,
+  };
