@@ -4,159 +4,159 @@
         "img_url": null,
         "titulo": "ConteÃºdos nocivos",
         "conteudo": "Nessa fase esse tipo de conteÃºdo ainda preocupa.\n        Durante a puberdade Ã© natural que jovens tem curiosidade em pornografia,\n        mas nÃ£o sÃ³ . Os jovens ainda estÃ£o expostos\n        a mÃ¡teriais que estimulam comportamento ruim, fake news, entre outros meios de desinformaÃ§Ã£o ",
-        "faixa_etaria_id": 1,
-        "tipo_id": 1
+        "faixa_etaria": "adolescente",
+        "tipo_info": "riscos"
     },
     {
         "dados_id": 2,
         "img_url": null,
         "titulo": "Grooming",
         "conteudo": "Termo em inglÃªs utilizado para definir aliciamento de crianÃ§as e adolescentes por meio \n        da internet. Os aliciadores, tornam-se amigos do jovem e com meios sedutores, \n        conseguem descobrir dados e informaÃ§Ãµes , podendo resultar em tÅ•afico infantil, \n        pornogrÃ¡fia infantil , entre outros tipos de assÃ©dio",
-        "faixa_etaria_id": 1,
-        "tipo_id": 1
+        "faixa_etaria": "adolescente",
+        "tipo_info": "riscos"
     },
     {
         "dados_id": 3,
         "img_url": null,
         "titulo": "SextorsÃ£o",
         "conteudo": "Podemos dizer que Ã© uma prÃ¡tica vinculada ao sexting. Quando o sexting evolui de uma conversa picante para o envio de uma foto sensual\n        , em alguns casos o criminoso. pode pedir dinheiro ,\n         relaÃ§Ã£o sexual ou mais fotos, sob ameaÃ§a de divulgar as fotos intÃ­mas.",
-        "faixa_etaria_id": 1,
-        "tipo_id": 1
+        "faixa_etaria": "adolescente",
+        "tipo_info": "riscos"
     },
     {
         "dados_id": 4,
         "img_url": null,
         "titulo": "Cyberbullying",
         "conteudo": "O Cyberbullying Ã© um tipo de agressÃ£o moral, em ambientes virtuais.\n         O agressor usa comentÃ¡rios, fotos, videos , montagens para atormetar a vÃ­tima.\n        Em alguns casos esa agressÃ£opode virar fÃ­sica, como na prÃ¡tica de Happy Slaping , onde o agressor filma ,a agressÃ£o fisica.",
-        "faixa_etaria_id": 1,
-        "tipo_id": 1
+        "faixa_etaria": "adolescente",
+        "tipo_info": "riscos"
     },
     {
         "dados_id": 5,
         "img_url": null,
         "titulo": "ConteÃºdos nocivos",
         "conteudo": "As crianÃ§as sÃ£o expostas a muita informaÃ§Ã£o na internet, \n        e nem todo conteÃºdo Ã© adequado. \n        Exemplos de conteÃºdos nocivos sÃ£o: pornogrÃ¡fia, material violento ou com \n        linguagens ofensivas e atÃ© videos que estimulam desobediÃªncia aos paÃ­s \n        ( plataformas de compartilhamento de vÃ­deos)",
-        "faixa_etaria_id": 2,
-        "tipo_id": 1
+        "faixa_etaria": "crianÃ§a",
+        "tipo_info": "riscos"
     },
     {
         "dados_id": 6,
         "img_url": null,
         "titulo": "Danos a equipamentos",
         "conteudo": "CrianÃ§as sÃ£o curiosas e tendem a clicar em links e pop-ups\n        chamativos, e essa Ã© isso gera uma oportunidade para hackers e programas malicioso .\n        Podendo assim, perder ou divulgar dados importantes e confidenciais ",
-        "faixa_etaria_id": 2,
-        "tipo_id": 1
+        "faixa_etaria": "crianÃ§a",
+        "tipo_info": "riscos"
     },
     {
         "dados_id": 7,
         "img_url": null,
         "titulo": "Dificuldade para se relacionar",
         "conteudo": "O mau uso e/ou uso excessivo da internet pode gerar na crianÃ§a uma dificuldade de interaÃ§Ã£o \n        com pessoas e para fazer amizades,\n        pois o excesso de uso da web pode acabar alterando neles o valor das relaÃ§Ãµes humanas",
-        "faixa_etaria_id": 2,
-        "tipo_id": 1
+        "faixa_etaria": "crianÃ§a",
+        "tipo_info": "riscos"
     },
     {
         "dados_id": 8,
         "img_url": null,
         "titulo": "Virais constrangedores",
         "conteudo": "Os Videos e fotos postados inocentemente podem viralizar,\n         gerando uma exposiÃ§Ã£o desnecessÃ¡ria\n        e abrir precedentes para Web Bullying.\n        Lembrando que Ã© muito dÃ­ficil remover um conteÃºdo viralizado.",
-        "faixa_etaria_id": 2,
-        "tipo_id": 1
+        "faixa_etaria": "crianÃ§a",
+        "tipo_info": "riscos"
     },
     {
         "dados_id": 9,
         "img_url": "https://icons8.com.br/icon/49958/rel%C3%B3gio-despertador",
         "titulo": "EstabeleÃ§a HorÃ¡rios",
         "conteudo": "Determine horÃ¡rios para o acesso  Ã  internet.\n        O recomendÃ¡vel nessa idade sÃ£o de atÃ© 3 horas.",
-        "faixa_etaria_id": 1,
-        "tipo_id": 2
+        "faixa_etaria": "adolescente",
+        "tipo_info": "cuidados"
     },
     {
         "dados_id": 10,
         "img_url": "https://icons8.com.br/icon/9R5NOwlHzjAp/roteador",
         "titulo": "Controle Parental",
         "conteudo": "Sistemas Operacionais oferecem serviÃ§o de controle parental,\n         aonde vocÃª consegue definir qual conteÃºdo seu filho poderÃ¡ acessar.",
-        "faixa_etaria_id": 1,
-        "tipo_id": 2
+        "faixa_etaria": "adolescente",
+        "tipo_info": "cuidados"
     },
     {
         "dados_id": 11,
         "img_url": "https://icons8.com.br/icon/44504/fam%C3%ADlia-homem-mulher",
         "titulo": "Negocie EspaÃ§o",
         "conteudo": "A confianÃ§a deve ser conquistada aos poucos, \n        jovens de 15 a 17 anos podem ter uma maior autonomia,\n         mas a vigilÃ¢ncia ainda Ã© necessÃ¡ria",
-        "faixa_etaria_id": 1,
-        "tipo_id": 2
+        "faixa_etaria": "adolescente",
+        "tipo_info": "cuidados"
     },
     {
         "dados_id": 12,
         "img_url": "https://icons8.com.br/icon/42928/monitor",
         "titulo": "Previna",
         "conteudo": "Instale o computador de seu filho em um local que vocÃª\n         possa ficar de olho mesmo que de longe.\n         Portas sempre abertas.",
-        "faixa_etaria_id": 1,
-        "tipo_id": 2
+        "faixa_etaria": "adolescente",
+        "tipo_info": "cuidados"
     },
     {
         "dados_id": 13,
         "img_url": "https://icons8.com.br/icon/VXlFzKL00ftK/cyberbullying",
         "titulo": "Vigie Sinais",
         "conteudo": "DepressÃ£o, baixa autoestima, ansiedade... \n        podem ser sinais que seu filho esteja sofrendo cyberbullying.\n         Se for o caso, denuncie.",
-        "faixa_etaria_id": 1,
-        "tipo_id": 2
+        "faixa_etaria": "adolescente",
+        "tipo_info": "cuidados"
     },
     {
         "dados_id": 14,
         "img_url": "https://icons8.com.br/icon/80457/discurso",
         "titulo": "Converse muito",
         "conteudo": "Por mais que pareÃ§a repetitivo, mas seja exemplo,\n         orientar seu filho como agir Ã© a melhor maneira de manter ele seguro.",
-        "faixa_etaria_id": 1,
-        "tipo_id": 2
+        "faixa_etaria": "adolescente",
+        "tipo_info": "cuidados"
     },
     {
         "dados_id": 15,
         "img_url": "https://icons8.com.br/icon/49958/rel%C3%B3gio-despertador",
         "titulo": "EstabeleÃ§a HorÃ¡rios",
         "conteudo": "Determine horÃ¡rios para o acesso  Ã  internet.\n        O recomendÃ¡vel nessa idade sÃ£o de 1 a 2 horas , com supervisÃ£o.",
-        "faixa_etaria_id": 2,
-        "tipo_id": 2
+        "faixa_etaria": "crianÃ§a",
+        "tipo_info": "cuidados"
     },
     {
         "dados_id": 16,
         "img_url": "https://icons8.com.br/icon/94518/conversa",
         "titulo": "Converse  e Ensine",
         "conteudo": "O dialogo Ã© a arma mais eficiente nesse tipo de combate. \n         Seja exemplo, ensine seu filho,\n         tenha um dialÃ³go aberto e tenha uma relaÃ§Ã£o de confianÃ§a.",
-        "faixa_etaria_id": 2,
-        "tipo_id": 2
+        "faixa_etaria": "crianÃ§a",
+        "tipo_info": "cuidados"
     },
     {
         "dados_id": 17,
         "img_url": "https://icons8.com.br/icon/3OKbBNcUQqLh/pesquisar",
         "titulo": "Fique de Olho",
         "conteudo": "NÃ£o deixe seu filho acessar a internet sem nenhuma supervisÃ£o. \n        Esteja sempre ciente sobre o que ele consome ou posta na rede.",
-        "faixa_etaria_id": 2,
-        "tipo_id": 2
+        "faixa_etaria": "crianÃ§a",
+        "tipo_info": "cuidados"
     },
     {
         "dados_id": 18,
         "img_url": "https://icons8.com.br/icon/44504/fam%C3%ADlia-homem-mulher",
         "titulo": "Navegue com ele",
         "conteudo": "Reserve algum momento do seu dia para acessar a internet com o seu filho,\n         e orienta-lo a acessar um conteÃºdo saudavel e proveitoso.",
-        "faixa_etaria_id": 2,
-        "tipo_id": 2
+        "faixa_etaria": "crianÃ§a",
+        "tipo_info": "cuidados"
     },
     {
         "dados_id": 19,
         "img_url": "https://icons8.com.br/icon/41992/spam",
         "titulo": "Tenha cuidado",
         "conteudo": "NÃ£o poste fotos dos seus filhos nus, seminus na internet. \n        Essas fotos podem cair em redes de de exploraÃ§Ã£o sexual comercial.",
-        "faixa_etaria_id": 2,
-        "tipo_id": 2
+        "faixa_etaria": "crianÃ§a",
+        "tipo_info": "cuidados"
     },
     {
         "dados_id": 20,
         "img_url": "https://icons8.com.br/icon/81744/dia-parcialmente-nublado",
         "titulo": "Desconectar",
         "conteudo": "Incentive seu filho a praticar atividades ao ar livre \n        e a manter contato com outras crianÃ§as.",
-        "faixa_etaria_id": 2,
-        "tipo_id": 2
+        "faixa_etaria": "crianÃ§a",
+        "tipo_info": "cuidados"
     }
 ]
