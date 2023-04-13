@@ -4,12 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json .",
-    "migration": "node -e \"require('./init/utils').runMigration()\"",
-    "seed": "node -e \"require('./init/utils').runSeed()\""
+    "test": "mocha tests/**/*.test.js --exit"
   },
   "keywords": [],
   "author": "",
@@ -31,3 +29,4 @@
     "sinon": "^14.0.0"
   }
 }
+
