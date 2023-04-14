@@ -9,7 +9,7 @@
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json .",
     "test": "mocha tests/**/*.test.js --exit",
     "test:integration": "nyc --reporter=text mocha tests/integration/*.test.js",
-    "vercel-build": "/init:/docker-entrypoint-initdb.d"
+    "vercel-build": "npm run dev"
   },
   "keywords": [],
   "author": "",
