@@ -9,7 +9,9 @@
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json .",
     "test": "mocha tests/**/*.test.js --exit",
     "test:integration": "nyc --reporter=text mocha tests/integration/*.test.js",
-    "vercel-build": "mysql -u MYSQL_USER -p MYSQL_ROOT_PASSWORD MYSQL_DATABASE < init/migration.sql && npm run dev"
+    "migration": "node -e \"require('./init/migration').runMigration()\"",
+    "seed": "node -e \"require('./init/migration').runSeed()\"",
+    "vercel-build": "npm run migration && npm run seed && npm run dev"
   },
   "keywords": [],
   "author": "",
