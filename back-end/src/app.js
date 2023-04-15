@@ -4,9 +4,8 @@ const DataRoute = require('./routes/DataRoute');
 const app = express();
 
 app.use(express.json());
-app.get('/', (req, res) => {
-    return res.json('hello world');
-});
+app.get('/', (req, res) =>  res.json('hello world');
+
 
 app.use(DataRoute);
 
