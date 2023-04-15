@@ -11,7 +11,7 @@
     "test:integration": "nyc --reporter=text mocha tests/integration/*.test.js",
     "migration": "node -e \"require('./init/migration').runMigration()\"",
     "seed": "node -e \"require('./init/migration').runSeed()\"",
-    "vercel-build": "npm run migration && npm run dev"
+    "vercel-build": "npm start"
   },
   "keywords": [],
   "author": "",
