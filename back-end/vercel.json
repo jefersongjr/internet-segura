@@ -2,9 +2,9 @@
     "version": 2,
     "builds": [
         {
-            "src": "src/server.js",
-            "use": "@vercel/node",
-            "build": "npm install && npm run build && npm run migration && npm run start"
+          "src": "src/server.js",
+          "use": "@vercel/node",
+          "build": "npm run migrate"
         }
     ],
     "routes": [
