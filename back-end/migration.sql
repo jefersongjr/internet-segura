@@ -1,4 +1,8 @@
-USE informacoes;
+drop database informacoes if exists;
+
+CREATE DATABASE informacoes;
+
+uSE informacoes;
 
 CREATE TABLE
     tipo_info (
