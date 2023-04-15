@@ -3,7 +3,6 @@
     "builds": [
         {
             "src": "src/server.js",
-            "command": "npm run migration",
             "use": "@vercel/node"
         }
     ],
