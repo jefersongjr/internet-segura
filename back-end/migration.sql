@@ -1,5 +1,3 @@
-CREATE DATABASE informacoes;
-
 USE informacoes;
 
 CREATE TABLE
