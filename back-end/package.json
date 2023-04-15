@@ -10,9 +10,8 @@
     "test": "mocha tests/**/*.test.js --exit",
     "test:integration": "nyc --reporter=text mocha tests/integration/*.test.js",
     "migration": "node -e \"require('./init/migration').runMigration()\"",
-    "seed": "node -e \"require('./init/migration').runSeed()\"",
-    "vercel-build": "nnode -e \"require('./init/migration').runMigration()\" && npm run dev"
-  },
+    "seed": "node -e \"require('./init/migration').runSeed()\""
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
