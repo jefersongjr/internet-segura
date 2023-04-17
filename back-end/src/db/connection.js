@@ -1,20 +1,14 @@
 require('dotenv').config();
 const mysql = require('mysql2/promise');
 
-const { MYSQL_USER, MYSQL_ROOT_PASSWORD, MYSQL_HOST, MYSQL_PORT , MYSQL_DB} = process.env;
-
-const PLANETSCALE_DB_HOST = MYSQL_HOST;
-const PLANETSCALE_DB = MYSQL_DB;
-const PLANETSCALE_DB_PASSWORD = MYSQL_ROOT_PASSWORD;
-const PLANETSCALE_DB_USERNAME = MYSQL_USER;
-
+const { MYSQL_ADDON_DB, MYSQL_ADDON_HOST,MYSQL_ADDON_USER, MYSQL_ADDON_PASSWORD, MYSQL_ADDON_PORT } = process.env;
 
 const connection = mysql.createPool({
-    host: PLANETSCALE_DB_HOST,
-    port: MYSQL_PORT,
-    user: PLANETSCALE_DB_USERNAME,
-    password: PLANETSCALE_DB_PASSWORD,
-    database: PLANETSCALE_DB,
+    host: MYSQL_ADDON_HOST,
+    port: MYSQL_ADDON_PORT,
+    user: MYSQL_ADDON_USER,
+    password: MYSQL_ADDON_PASSWORD,
+    database: MYSQL_ADDON_DB,
     charset: 'utf8mb4',
 });
 
