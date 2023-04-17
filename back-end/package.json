@@ -10,7 +10,7 @@
     "test": "mocha tests/**/*.test.js --exit",
     "test:integration": "nyc --reporter=text mocha tests/integration/*.test.js",
     "migration": "node -e \"require('./init/migration').runMigration()\"",
-    "seed": "node -e \"require('./init/migration').runSeed()\"",
+    "seed": "node -e \"require('./init/migration').runSeed()\""
   },
   "keywords": [],
   "author": "",
