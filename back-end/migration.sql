@@ -1,3 +1,5 @@
+CREATE DATABASE neondb;
+
 CREATE SCHEMA informacoes;
 
 SET search_path TO informacoes;
