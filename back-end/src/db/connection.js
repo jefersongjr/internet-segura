@@ -11,6 +11,7 @@ const {
 } = process.env;
 
 const pool = new Pool({
+  connectionString: DATABASE_URL,
   host: PGHOST,
   port: PGPORT,
   database: PGDATABASE,
