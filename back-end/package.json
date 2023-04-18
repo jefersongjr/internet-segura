@@ -11,7 +11,7 @@
     "test:integration": "nyc --reporter=text mocha tests/integration/*.test.js",
     "migration": "node -e \"require('./init/migration').runMigration()\"",
     "seed": "node -e \"require('./init/migration').runSeed()\""
-      },
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
