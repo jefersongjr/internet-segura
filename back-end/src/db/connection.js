@@ -1,5 +1,5 @@
+import { Pool } from 'pg';
 require('dotenv').config();
-const { Pool } = require('pg');
 
 const {
   PGHOST,
@@ -19,4 +19,4 @@ const pool = new Pool({
   connectionString: DATABASE_URL  
 });
 
-module.exports = pool;
+export default pool;

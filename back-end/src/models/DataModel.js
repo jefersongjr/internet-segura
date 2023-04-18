@@ -1,4 +1,4 @@
-const pool = require('../db/connection');
+const pool = require('../db/connection').default;
 
 const findData = async () => {
   const result = await pool.query(
