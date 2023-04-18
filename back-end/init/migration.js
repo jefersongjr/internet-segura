@@ -3,14 +3,16 @@ const path = require('path');
 const { Pool } = require('pg');
 require('dotenv').config();
 
-const { PGUSER, PGPASSWORD, PGHOST, PGPORT, PGDATABASE } = process.env;
+const { PGUSER, PGPASSWORD, PGHOST, PGPORT, PGDATABASE, DATABASE_URL } = process.env;
 
 const connect = () => new Pool({
-  user: PGUSER,
-  password: PGPASSWORD,
+  connectionString: DATABASE_URL,
   host: PGHOST,
   port: PGPORT,
   database: PGDATABASE,
+  user: PGUSER,
+  password: PGPASSWORD,
+  ssl: { rejectUnauthorized: false }
 });
 
 const runSql = (file) => async () => {
