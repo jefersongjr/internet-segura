@@ -15,7 +15,7 @@ const pool = new Pool({
   database: PGDATABASE,
   user: PGUSER,
   password: PGPASSWORD,
-  sslmode: 'true'
+  sslmode: true
   
 });
 
