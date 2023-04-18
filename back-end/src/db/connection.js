@@ -16,9 +16,7 @@ const pool = new Pool({
   database: PGDATABASE,
   user: PGUSER,
   password: PGPASSWORD,
-  connectionString: DATABASE_URL,
-  sslmode: 'require'
-  
+  connectionString: DATABASE_URL  
 });
 
 module.exports = pool;
