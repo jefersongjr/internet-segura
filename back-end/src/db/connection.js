@@ -6,7 +6,8 @@ const {
   PGPORT,
   PGDATABASE,
   PGUSER,
-  PGPASSWORD
+  PGPASSWORD,
+  DATABASE_URL
 } = process.env;
 
 const pool = new Pool({
@@ -15,7 +16,8 @@ const pool = new Pool({
   database: PGDATABASE,
   user: PGUSER,
   password: PGPASSWORD,
-  sslmode: true
+  connectionString: DATABASE_URL,
+  sslmode: 'require'
   
 });
 
