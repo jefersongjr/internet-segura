@@ -16,7 +16,6 @@ const pool = new Pool({
   database: PGDATABASE,
   user: PGUSER,
   password: PGPASSWORD,
-  connectionString: DATABASE_URL  
 });
 
 export default pool;
