@@ -1,15 +1,15 @@
-USE `informacoes`;
+SET search_path TO informacoes;
 
 INSERT INTO
-    informacoes.tipo_info (tipo_info)
+    tipo_info (tipo_info)
 VALUES ('riscos'), ('cuidados');
 
 INSERT INTO
-    informacoes.faixa_etaria (faixa_etaria)
+    faixa_etaria (faixa_etaria)
 VALUES ('adolescente'), ('criança');
 
 INSERT INTO
-    informacoes.dados(
+    dados(
         titulo,
         conteudo,
         faixa_etaria_id,
@@ -79,7 +79,7 @@ VALUES (
     );
 
 INSERT INTO
-    informacoes.dados (
+    dados (
         img_url,
         titulo,
         conteudo,
@@ -135,7 +135,7 @@ VALUES (
 
 
 INSERT INTO
-    informacoes.dados (
+    dados (
         img_url,
         titulo,
         conteudo,

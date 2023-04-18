@@ -1,15 +1,20 @@
 require('dotenv').config();
-const mysql = require('mysql2/promise');
+const { Pool } = require('pg');
 
-const { MYSQL_ADDON_DB, MYSQL_ADDON_HOST,MYSQL_ADDON_USER, MYSQL_ADDON_PASSWORD, MYSQL_ADDON_PORT } = process.env;
+const {
+  PGHOST,
+  PGPORT,
+  PGDATABASE,
+  PGUSER,
+  PGPASSWORD
+} = process.env;
 
-const connection = mysql.createPool({
-    host: MYSQL_ADDON_HOST,
-    port: MYSQL_ADDON_PORT,
-    user: MYSQL_ADDON_USER,
-    password: MYSQL_ADDON_PASSWORD,
-    database: MYSQL_ADDON_DB,
-    charset: 'utf8mb4',
+const pool = new Pool({
+  host: PGHOST,
+  port: PGPORT,
+  database: PGDATABASE,
+  user: PGUSER,
+  password: PGPASSWORD
 });
 
-module.exports = connection;
+module.exports = pool;

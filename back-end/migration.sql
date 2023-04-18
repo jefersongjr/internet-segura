@@ -1,32 +1,22 @@
-drop database informacoes if exists;
+CREATE SCHEMA informacoes;
 
-CREATE DATABASE informacoes;
+SET search_path TO informacoes;
 
-uSE informacoes;
+CREATE TABLE tipo_info (
+tipo_id SERIAL PRIMARY KEY,
+tipo_info VARCHAR(20) NOT NULL
+);
 
-CREATE TABLE
-    tipo_info (
-        tipo_id INT NOT NULL AUTO_INCREMENT,
-        tipo_info VARCHAR(20) NOT NULL,
-        PRIMARY KEY(tipo_id)
-    ) ENGINE = INNODB DEFAULT CHARSET=utf8;
+CREATE TABLE faixa_etaria (
+faixa_etaria_id SERIAL PRIMARY KEY,
+faixa_etaria VARCHAR(20) NOT NULL
+);
 
-CREATE TABLE
-    faixa_etaria (
-        faixa_etaria_id INT NOT NULL AUTO_INCREMENT,
-        faixa_etaria VARCHAR(20) NOT NULL,
-        PRIMARY KEY(faixa_etaria_id)
-    ) ENGINE = INNODB DEFAULT CHARSET=utf8;
-
-CREATE TABLE
-    dados (
-        dados_id INT NOT NULL AUTO_INCREMENT,
-        img_url VARCHAR(100),
-        titulo VARCHAR(50) NOT NULL,
-        conteudo VARCHAR(400) NOT NULL,
-        faixa_etaria_id INT NOT NULL,
-        tipo_id INT NOT NULL,
-        PRIMARY KEY(dados_id),
-        FOREIGN KEY (faixa_etaria_id) REFERENCES faixa_etaria (faixa_etaria_id) ON DELETE CASCADE,
-        FOREIGN KEY (tipo_id) REFERENCES tipo_info (tipo_id) ON DELETE CASCADE
-    ) ENGINE = INNODB DEFAULT CHARSET=utf8;
+CREATE TABLE dados (
+dados_id SERIAL PRIMARY KEY,
+img_url VARCHAR(100),
+titulo VARCHAR(50) NOT NULL,
+conteudo VARCHAR(400) NOT NULL,
+faixa_etaria_id INT NOT NULL REFERENCES faixa_etaria(faixa_etaria_id) ON DELETE CASCADE,
+tipo_id INT NOT NULL REFERENCES tipo_info(tipo_id) ON DELETE CASCADE
+);

@@ -1,19 +1,16 @@
 const fs = require('fs');
 const path = require('path');
-const mysql = require('mysql2/promise');
+const { Pool } = require('pg');
 require('dotenv').config();
 
-const { MYSQL_USER, MYSQL_ROOT_PASSWORD, MYSQL_HOST, MYSQL_PORT } = process.env;
+const { PGUSER, PGPASSWORD, PGHOST, PGPORT, PGDATABASE } = process.env;
 
-const { cwd } = process;
-
-const connect = () => mysql.createPool({
-  host: MYSQL_HOST,
-  port: MYSQL_PORT,
-  user: MYSQL_USER,
-  password: MYSQL_ROOT_PASSWORD,
-  database: 'informacoes',
-  multipleStatements: true,
+const connect = () => new Pool({
+  user: PGUSER,
+  password: PGPASSWORD,
+  host: PGHOST,
+  port: PGPORT,
+  database: PGDATABASE,
 });
 
 const runSql = (file) => async () => {
@@ -23,8 +20,8 @@ const runSql = (file) => async () => {
   await db.end();
 };
 
-const runMigration = runSql(path.resolve(cwd(), 'migration.sql'));
-const runSeed = runSql(path.resolve(cwd(), 'seed.sql'));
+const runMigration = runSql(path.resolve(process.cwd(), 'migration.sql'));
+const runSeed = runSql(path.resolve(process.cwd(), 'seed.sql'));
 
 module.exports = {
   connect,
