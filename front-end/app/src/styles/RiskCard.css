@@ -1,0 +1,36 @@
+.RiskCard {
+  background-color: #D9D9D9;
+  border-radius: 15px;
+  height: 30%;
+  margin-bottom: 30px;
+  min-height: fit-content;
+  padding: 10px;
+  text-align: center;
+  width: 40%;
+}
+
+.RiskCard:nth-child(2n) {
+  margin-left: 30px;
+}
+
+.riskTitle {
+  font-family: 'Holtwood One SC', serif;
+  margin-bottom: 10px;
+}
+
+.riskContent {
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1200px ) {
+  .RiskCard {
+    height: 36%;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1155px ) {
+  .RiskCard {
+    width: 80% ;
+  }
+}
