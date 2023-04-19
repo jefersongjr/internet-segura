@@ -1,21 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
+import SearchContext from '../context/SearchContext';
 
 function Search() {
-  const [data, setData] = useState([]);
-  const [search, setSearch] = useState([]);
+  const { data, setSearch } = useContext(SearchContext);
   const navigate = useNavigate();
-
-  useEffect(() => {
-    axios.get('https://internet-segura-api.vercel.app/')
-      .then((response) => {
-        setData(response.data);
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-  }, []);
 
   const handleClick = ({ target }) => {
     const { innerText } = target;
