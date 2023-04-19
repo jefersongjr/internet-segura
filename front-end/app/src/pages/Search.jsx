@@ -17,9 +17,8 @@ function Search() {
 
   return (
     <div className="Search">
-       <button>Criança</button>
-{       console.log(data)
-}       <button>Adolescente</button>
+      <button>Criança</button>
+      <button>Adolescente</button>
     </div>
   )
 }

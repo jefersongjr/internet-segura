@@ -1,11 +1,10 @@
-import Search from './pages/Search';
 import './App.css'
+import Content from './components/Content'
 
 function App() {
   return (
-    <div className="App">
-      <Search />
-     
+    <div className="App"> 
+      <Content />
     </div>
   )
 }
