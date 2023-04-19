@@ -1,41 +1,34 @@
-import { useEffect, useState } from "react";
-import axios from 'axios';
+import React, { useContext } from 'react';
+import { useNavigate } from 'react-router-dom';
+import SearchContext from '../context/SearchContext';
 
 function Search() {
-  const [data, setData] = useState([]);
-  const [search, setSearch] = useState([]);
-
-
-  useEffect(() => {
-    axios.get('https://internet-segura-api.vercel.app/')
-      .then(response => {
-        setData(response.data);
-      })
-      .catch(error => {
-        console.error(error);
-      });
-  }, []);
+  const { data, setSearch } = useContext(SearchContext);
+  const navigate = useNavigate();
 
   const handleClick = ({ target }) => {
     const { innerText } = target;
     const filter = data.filter((type) => type.faixa_etaria === innerText.toLowerCase());
-    console.log(filter);
     setSearch(filter);
-  }
-  
+    navigate('/resultado-pesquisa');
+  };
+
   return (
     <div className="Search">
       <button
-        onClick={(e) => handleClick(e)}
+        type="button"
+        onClick={ (e) => handleClick(e) }
       >
         Criança
       </button>
       <button
-        onClick={(e) => handleClick(e)}
+        type="button"
+        onClick={ (e) => handleClick(e) }
       >
-        Adolescente</button>
+        Adolescente
+      </button>
     </div>
-  )
+  );
 }
 
 export default Search;
