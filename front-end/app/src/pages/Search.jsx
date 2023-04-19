@@ -2,18 +2,24 @@ import { useEffect, useState } from "react";
 import axios from 'axios';
 
 function Search() {
-  const [data, setData] = useState([])
+  const [data, setData] = useState([]);
+
   useEffect(() => {
-    axios.get('https://internet-segura-api.vercel.app/dados')
-      .then((res) => {
-      setData(res)
-    } );
-  },[])
+    axios.get('https://internet-segura-api.vercel.app/')
+      .then(response => {
+        setData(response.data);
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  }, []);
+  
+
   return (
     <div className="Search">
        <button>Criança</button>
-       {console.log(data)}
-       <button>Adolescente</button>
+{       console.log(data)
+}       <button>Adolescente</button>
     </div>
   )
 }
