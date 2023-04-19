@@ -1,11 +1,12 @@
-import React from 'react';  
+import React from 'react';
+import '../styles/RiskCard.css'
 
 function RiskCard(title, content) {
 
 return (
-    <div className="App">
-      <h3>{ title }</h3>
-      <p>{ content }</p>
+    <div className="RiskCard">
+      <h3 className='riskTitle'>{ title }</h3>
+      <p className='riskContent'>{ content }</p>
     </div>
   );
 }
