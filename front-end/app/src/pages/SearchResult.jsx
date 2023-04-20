@@ -16,6 +16,9 @@ function SearchResult() {
       )}
       </div>
     </section>
+    <section className='riskContainer'>
+    <h2 className="riskContainerTitle">Dicas</h2>
+    </section>
     </div>
   )
 }
