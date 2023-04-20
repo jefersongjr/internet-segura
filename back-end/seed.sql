@@ -87,21 +87,21 @@ INSERT INTO
         tipo_id
     )
 VALUES (
-        'https://icons8.com.br/icon/49958/rel%C3%B3gio-despertador',
+        'https://img.icons8.com/ultraviolet/256/alarm-clock--v1.png',
         'Estabeleça Horários',
         'Determine horários para o acesso  à internet.
         O recomendável nessa idade são de até 3 horas.',
         1,
         2
     ), (
-        'https://icons8.com.br/icon/9R5NOwlHzjAp/roteador',
+        'https://img.icons8.com/plasticine/256/wifi-router.png',
         'Controle Parental',
         'Sistemas Operacionais oferecem serviço de controle parental,
          aonde você consegue definir qual conteúdo seu filho poderá acessar.',
         1,
         2
     ), (
-        'https://icons8.com.br/icon/44504/fam%C3%ADlia-homem-mulher',
+        'https://img.icons8.com/ultraviolet/256/family--v1.png',
         'Negocie Espaço',
         'A confiança deve ser conquistada aos poucos, 
         jovens de 15 a 17 anos podem ter uma maior autonomia,
@@ -109,7 +109,7 @@ VALUES (
         1,
         2
     ), (
-        'https://icons8.com.br/icon/42928/monitor',
+        'https://img.icons8.com/dusk/256/monitor--v1.png',
         'Previna',
         'Instale o computador de seu filho em um local que você
          possa ficar de olho mesmo que de longe.
@@ -117,7 +117,7 @@ VALUES (
         1,
         2
     ), (
-        'https://icons8.com.br/icon/VXlFzKL00ftK/cyberbullying',
+        'https://img.icons8.com/color/256/bully.png',
         'Vigie Sinais',
         'Depressão, baixa autoestima, ansiedade... 
         podem ser sinais que seu filho esteja sofrendo cyberbullying.
@@ -125,7 +125,7 @@ VALUES (
         1,
         2
     ), (
-        'https://icons8.com.br/icon/80457/discurso',
+        'https://img.icons8.com/doodle/256/filled-topic.png',
         'Converse muito',
         'Por mais que pareça repetitivo, mas seja exemplo,
          orientar seu filho como agir é a melhor maneira de manter ele seguro.',
@@ -143,14 +143,14 @@ INSERT INTO
         tipo_id
     )
 VALUES (
-        'https://icons8.com.br/icon/49958/rel%C3%B3gio-despertador',
+        'https://img.icons8.com/ultraviolet/256/alarm-clock--v1.png',
         'Estabeleça Horários',
         'Determine horários para o acesso  à internet.
         O recomendável nessa idade são de 1 a 2 horas , com supervisão.',
         2,
         2
     ), (
-        'https://icons8.com.br/icon/94518/conversa',
+        'https://img.icons8.com/cotton/256/talk.png',
         'Converse  e Ensine',
         'O dialogo é a arma mais eficiente nesse tipo de combate. 
          Seja exemplo, ensine seu filho,
@@ -158,28 +158,28 @@ VALUES (
         2,
         2
     ), (
-        'https://icons8.com.br/icon/3OKbBNcUQqLh/pesquisar',
+        'https://img.icons8.com/cute-clipart/256/search.png',
         'Fique de Olho',
         'Não deixe seu filho acessar a internet sem nenhuma supervisão. 
         Esteja sempre ciente sobre o que ele consome ou posta na rede.',
         2,
         2
     ), (
-        'https://icons8.com.br/icon/44504/fam%C3%ADlia-homem-mulher',
+        'https://img.icons8.com/ultraviolet/256/family--v1.png',
         'Navegue com ele',
         'Reserve algum momento do seu dia para acessar a internet com o seu filho,
          e orienta-lo a acessar um conteúdo saudavel e proveitoso.',
         2,
         2
     ), (
-        'https://icons8.com.br/icon/41992/spam',
+        'https://img.icons8.com/ultraviolet/256/spam.png',
         'Tenha cuidado',
         'Não poste fotos dos seus filhos nus, seminus na internet. 
         Essas fotos podem cair em redes de de exploração sexual comercial.',
         2,
         2
     ), (
-        'https://icons8.com.br/icon/81744/dia-parcialmente-nublado',
+        'https://img.icons8.com/doodle/256/partly-cloudy-day--v1.png',
         'Desconectar',
         'Incentive seu filho a praticar atividades ao ar livre 
         e a manter contato com outras crianças.',

@@ -3,6 +3,7 @@ import SearchContext from '../context/SearchContext';
 import { useNavigate } from 'react-router-dom';
 import RiskCard from '../components/RiskCard';
 import '../styles/SearchResult.css'
+import TipCard from '../components/TipCard';
 
 function SearchResult() {
   const { search } = useContext(SearchContext);
@@ -24,6 +25,9 @@ function SearchResult() {
     </section>
     <section className='riskContainer'>
     <h2 className="riskContainerTitle">Dicas</h2>
+    {search.filter((type) => type.tipo_info === 'cuidados')
+        .map((tip) => TipCard(tip.img_url,tip.img_url, tip.titulo, tip.conteudo)
+      )}
     </section>
     </div>
   )
