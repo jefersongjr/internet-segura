@@ -1,10 +1,16 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect} from 'react';
 import SearchContext from '../context/SearchContext';
+import { useNavigate } from 'react-router-dom';
 import RiskCard from '../components/RiskCard';
 import '../styles/SearchResult.css'
 
 function SearchResult() {
   const { search } = useContext(SearchContext);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    search.length === 0 && navigate('/pesquisa');
+  });
 
   return (
     <div className="SearchResult">
