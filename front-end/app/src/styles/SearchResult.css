@@ -1,16 +1,5 @@
-.riskContainer {
-  align-items: center;
-  background-color: #343333 ;
-  display: flex;
-  flex-direction: column;
-  min-height: fit-content;
-  justify-content: center;
-  width: 100%;
-}
-
 .cardContainer {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
@@ -19,18 +8,28 @@
   width: 80%;
 }
 
+.riskContainer {
+  align-items: center;
+  background-color: #343333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: fit-content;
+  width: 100%;
+}
+
 .riskContainerTitle {
   color: white;
   font-size: 2.5rem;
-  font-family: 'Holtwood One SC', serif;
+  font-family: Holtwood One SC , serif;
   margin-bottom: 3rem;
 }
 
 
-@media screen and (max-width: 650px ) {
+@media screen and ( max-width : 650px ) {
+
   .riskContainerTitle {
-   font-size: 2em;
-   margin-bottom: 2rem;
+    font-size: 2em;
+    margin-bottom: 2rem;
   }
 }
-
