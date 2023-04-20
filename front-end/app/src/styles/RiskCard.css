@@ -1,36 +1,64 @@
 .RiskCard {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   border-radius: 15px;
-  height: 30%;
+  display: flex;
+  flex-direction: column;
+  height: 15em;
+  justify-content: space-around;
   margin-bottom: 30px;
-  min-height: fit-content;
   padding: 10px;
   text-align: center;
   width: 40%;
 }
 
-.RiskCard:nth-child(2n) {
-  margin-left: 30px;
+.riskContent {
+  font-size: 1.6rem;
 }
 
 .riskTitle {
-  font-family: 'Holtwood One SC', serif;
+  font-family: 'Holtwood One SC' , serif;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-.riskContent {
-  font-size: 1.1rem;
+.RiskCard:nth-child( 2n ) {
+  margin-left: 30px;
 }
 
-@media screen and (max-width: 1200px ) {
-  .RiskCard {
-    height: 36%;
-    width: 40%;
+@media screen and ( max-width : 1500px ) {
+
+  .riskContent {
+    font-size: 1.3rem;
   }
 }
 
-@media screen and (max-width: 1155px ) {
+@media screen and ( max-width : 1000px ) {
+
   .RiskCard {
-    width: 80% ;
+    width: 80%;
+  }
+
+  .riskContent {
+    font-size: 1.5rem;
+  }
+
+  .RiskCard:nth-child( 2n ) {
+    margin-left: 0;
+  }
+}
+
+@media screen and ( max-width : 650px ) {
+
+  .RiskCard {
+    width: 80%;
+    height: 80%;
+  }
+
+  .riskContent {
+    font-size: 1.5rem;
+  }
+
+  .RiskCard:nth-child( 2n ) {
+    margin-left: 0;
   }
 }
