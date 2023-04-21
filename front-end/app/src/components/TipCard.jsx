@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/RiskCard.css'
-function TipCard(img, description,  title, content) {
+import '../styles/TipCard.css';
 
+function TipCard(img, description,  title, content) {
 return (
     <div className="TipCard">
       <img src={`${ img }`}/>
