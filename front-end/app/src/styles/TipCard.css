@@ -1,3 +1,29 @@
 .TipCard {
+  align-items: center;
   background-color: white;
+  height: 25em;
+  justify-content: space-around;
+  text-align: center;
+  min-height: fit-content;
+  width: 28%;
+}
+
+.imgCard {
+  width: 30%;
+}
+
+.tipTitle {
+  font-family: Holtwood One SC , serif;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.tipContent {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.tipContent{
+  width: 80%;
+  margin: auto;
 }
