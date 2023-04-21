@@ -8,9 +8,8 @@
   width: 80%;
 }
 
-.riskContainer {
+.containers {
   align-items: center;
-  background-color: #343333;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,13 +17,30 @@
   width: 100%;
 }
 
-.riskContainerTitle {
-  color: white;
+.riskContainer {
+  background-color: #343333;
+}
+
+.title {
   font-size: 2.5rem;
   font-family: Holtwood One SC , serif;
   margin-bottom: 3rem;
 }
 
+.tipContainer {
+  background: white;
+}
+
+.riskContainerTitle{
+  color: white;
+}
+
+.cardTipContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+}
 @media screen and ( max-width : 650px ) {
 
   .riskContainerTitle {
