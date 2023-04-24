@@ -22,7 +22,7 @@ function SearchResult() {
   return (
     <div className="SearchResult">
       {
-        search[0].faixa_etaria === 'adolescente' ? <TeenContainer /> : <ChildContainer />
+        search[0]?.faixa_etaria === 'adolescente' ? <TeenContainer /> : <ChildContainer />
       }
       <section className="riskContainer containers">
         <h2 className="riskContainerTitle title">Principais Ameaças</h2>
