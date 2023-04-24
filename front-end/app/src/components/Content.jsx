@@ -3,12 +3,14 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Search from '../pages/Search';
 import SearchResult from '../pages/SearchResult';
 import Header from './Header';
+import Menu from './Menu';
 
 function Content() {
   return (
     <React.StrictMode>
       <Router>
         <Header />
+        <Menu />
         <Routes>
           {/* <Route path="/" element={<Home />} /> */}
           <Route path="/pesquisa" element={ <Search /> } />
