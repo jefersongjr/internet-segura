@@ -3,8 +3,9 @@
   background-color: white;
   height: 25em;
   justify-content: space-around;
+  margin-bottom: 30px;
   text-align: center;
-  min-height: fit-content;
+  height: fit-content;
   width: 28%;
 }
 
@@ -32,5 +33,41 @@
 
   .riskContent {
     font-size: 1.3rem;
+  }
+}
+
+@media screen and ( max-width : 1000px ) {
+
+  .TipCard {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 80%;
+  }
+
+  .tipContent {
+    font-size: 2rem;
+  }
+
+
+  .TipCard:nth-child( 2n ) {
+    margin-left: 0;
+  }
+}
+
+
+@media screen and ( max-width : 650px ) {
+
+  .TipCard {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .tipContent {
+    font-size: 1.5rem;
+  }
+
+  .TipCard:nth-child( 2n ) {
+    margin-left: 0;
   }
 }

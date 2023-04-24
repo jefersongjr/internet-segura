@@ -3,8 +3,8 @@
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  height: 15em;
-  justify-content: space-around;
+  height: 19em;
+  justify-content: center;
   margin-bottom: 30px;
   padding: 10px;
   text-align: center;
@@ -35,12 +35,18 @@
 @media screen and ( max-width : 1000px ) {
 
   .RiskCard {
+    height: fit-content;
     width: 80%;
   }
 
   .riskContent {
     font-size: 1.5rem;
   }
+
+  .riskContent {
+    font-size: 2rem;
+  }
+
 
   .RiskCard:nth-child( 2n ) {
     margin-left: 0;
@@ -50,8 +56,8 @@
 @media screen and ( max-width : 650px ) {
 
   .RiskCard {
-    width: 80%;
-    height: 80%;
+    width: fit-content;
+    height: fit-content;
   }
 
   .riskContent {
