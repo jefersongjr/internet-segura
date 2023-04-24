@@ -11,7 +11,6 @@
 .topContainer{
   height: 100vh;
   display: flex;
-  background-image: url('../image/adolescente.jpg');
   background-size: cover;
   color: white;
   display: flex;
@@ -29,7 +28,7 @@
 
 .contentTopContainer {
   background-color: #343333 ;
-  opacity: 0.9;
+  opacity: 0.85;
   height: fit-content;
   width: 30%;
   margin: 0 15rem 10rem 0;
@@ -69,6 +68,16 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   width: 80%;
+}
+
+.childContainer {
+  background-image: url('../image/crianca.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.teenContainer {
+  background-image: url('../image/adolescente.jpg');
 }
 
 @media screen and ( max-width : 1700px ) {
