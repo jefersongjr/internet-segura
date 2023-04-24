@@ -8,6 +8,33 @@
   width: 80%;
 }
 
+.topContainer{
+  height: 100vh;
+  display: flex;
+  background-image: url('../image/adolescente.jpg');
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: right;
+  align-items: last baseline;
+}
+
+.textTopContainer {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.contentTopContainer {
+  background-color: #343333 ;
+  opacity: 0.9;
+  height: fit-content;
+  width: 30%;
+  margin: 0 15rem 10rem 0;
+}
+
 .containers {
   align-items: center;
   display: flex;
@@ -43,10 +70,71 @@
   justify-content: space-evenly;
   width: 80%;
 }
+
+@media screen and ( max-width : 1700px ) {
+
+  .titleTop {
+    font-size: 1.6rem;
+  }
+
+  .textTopContainer {
+    font-size: 1.6rem;
+  }
+
+  .contentTopContainer {
+    margin: 0 15rem 8rem 0;
+  }
+}
+
+@media screen and ( max-width : 1200px ) {
+
+  .contentTopContainer {
+    width: 40%;
+    margin: 0 10rem 7rem 0;
+  }
+}
+
+@media screen and ( max-width : 850px ) {
+
+  .contentTopContainer {
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    
+  }
+}
+
+
 @media screen and ( max-width : 650px ) {
 
   .riskContainerTitle {
     font-size: 2em;
     margin-bottom: 2rem;
   }
+
+  .topContainer{
+    height: fit-content
+  }
+
 }
+
+  @media screen and ( max-width : 650px ) {
+
+    .riskContainerTitle {
+      font-size: 2em;
+      margin-bottom: 2rem;
+    }
+  
+    .topContainer{
+      height: fit-content
+    }
+  
+  }
+
+  @media screen and ( max-width : 350px ) {
+  
+    .titleTop{
+      font-size: 1.2rem;
+    }
+  
+  }
