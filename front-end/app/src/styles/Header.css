@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.headerContainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.navbar a{
+  color: black;
+  font-size: 1.6rem;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+.menuNavBar {
+  display: none;
+}
+
+@media screen and ( max-width : 650px ) {
+    
+    .navbar {
+      display: none;
+    }
+
+    .menuNavBar {
+      background-color: white;
+      border: none;
+      display: block;
+    }
+
+    .menuNavBar img:active {
+      height: 3rem;
+    }
+  
+  }
