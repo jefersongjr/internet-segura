@@ -1,14 +1,15 @@
-import Content from './components/Content'
-import SearchProvider from './context/SearchProvider'
+import React from 'react';
+import Content from './components/Content';
+import SearchProvider from './context/SearchProvider';
 
 function App() {
   return (
     <div className="App">
-      <SearchProvider >
+      <SearchProvider>
         <Content />
       </SearchProvider>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
