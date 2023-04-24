@@ -4,6 +4,8 @@ import SearchContext from '../context/SearchContext';
 import RiskCard from '../components/RiskCard';
 import '../styles/SearchResult.css';
 import TipCard from '../components/TipCard';
+import TeenContainer from '../components/TeenContainer';
+import ChildContainer from '../components/ChildContainer';
 
 function SearchResult() {
   const { search } = useContext(SearchContext);
@@ -19,18 +21,9 @@ function SearchResult() {
 
   return (
     <div className="SearchResult">
-      <section className="topContainer">
-        <div className="contentTopContainer">
-          <div className="textTopContainer">
-            <h2 className="title titleTop">Segurança para Adolescentes</h2>
-            <p>
-              O jovem, entre 10 e 17 anos, já possui um maior entendimento das coisas e,
-            </p>
-            <p>apesar disso, ainda é necessária a participação dos pais. </p>
-            <p>Nesse ponto, a educação deve ser mais forte do que a vigilância.</p>
-          </div>
-        </div>
-      </section>
+      {
+        search[0].faixa_etaria === 'adolescente' ? <TeenContainer /> : <ChildContainer />
+      }
       <section className="riskContainer containers">
         <h2 className="riskContainerTitle title">Principais Ameaças</h2>
         <div className="cardContainer">
