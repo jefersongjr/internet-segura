@@ -2,9 +2,13 @@
   display: hidden;
 }
 
+.navHiddenMenu {
+  display: none;
+}
+
 @media screen and ( max-width : 650px ) {
     
-    .Menu {
+    .menuVisivel {
         background-color: white;
         z-index: 1;
         position: absolute;
