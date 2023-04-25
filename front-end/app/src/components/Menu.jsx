@@ -14,7 +14,9 @@ function Menu() {
   };
 
   return (
-    <div className={ !isActive ? 'hiddenMenu' : 'Menu' }>
+    <div
+      className={ `Menu ${!isActive ? 'hiddenMenu' : 'menuVisivel'}` }
+    >
       <nav className="navHiddenMenu">
         <button
           type="button"

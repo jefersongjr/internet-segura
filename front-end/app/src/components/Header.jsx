@@ -16,7 +16,7 @@ function Header() {
       <div className="headerContainer">
         <img src={ logo } alt="logo internet segura" width="100px" />
         <nav className="navbar">
-          <Link to="/inicio">Início</Link>
+          <Link to="/">Início</Link>
           <Link to="/pesquisa">Aprenda</Link>
           <Link to="/sobre">Sobre</Link>
         </nav>

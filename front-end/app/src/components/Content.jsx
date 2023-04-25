@@ -4,6 +4,7 @@ import Search from '../pages/Search';
 import SearchResult from '../pages/SearchResult';
 import Header from './Header';
 import Menu from './Menu';
+import Home from '../pages/Home';
 
 function Content() {
   return (
@@ -12,7 +13,7 @@ function Content() {
         <Header />
         <Menu />
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/" element={ <Home /> } />
           <Route path="/pesquisa" element={ <Search /> } />
           <Route path="/resultado-pesquisa" element={ <SearchResult /> } />
           {/* <Route path="*" element={<NotFound />} /> */}
