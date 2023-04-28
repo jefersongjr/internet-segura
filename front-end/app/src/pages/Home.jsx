@@ -9,7 +9,6 @@ function Home() {
     <div className="Home">
       <div className="textContainer">
         <div>
-
           <p>Aprenda a transformar</p>
           <p>a Internet em um</p>
           <p className="greenText">ambiente mais seguro</p>
