@@ -1,12 +1,15 @@
 import React from 'react';
-import '../styles/Home.css';
+import '../styles/About.css';
+import imgSobre from '../image/about.jpg';
 
 function About() {
   return (
-    <div className="Home">
-      <div className="imgContainer">
+    <div className="About">
+      <div className="imgAboutContainer">
+        <img src={ imgSobre } alt="criança com tablet" />
       </div>
-      <div className="textContainer">
+      <div className="textAboutContainer">
+        <h1>Sobre o projeto: </h1>
         <div>
           <p> Esse site faz parte do meu projeto de Trabalho de conclusão de curso.
             A tecnologia está em constante evolução e os jovens estão cada vez mais</p>
