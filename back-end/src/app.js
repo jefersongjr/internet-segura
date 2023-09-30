@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const DataRoute = require('./routes/DataRoute');
-// const dataMock = require('../tests/mocks/dataMock.json');
 
 const app = express();
 
