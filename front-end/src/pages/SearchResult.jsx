@@ -13,8 +13,7 @@ function SearchResult() {
 
   useEffect(() => {
     const backToSelectSearch = () => {
-      const nav = search.length === 0 && navigate('/pesquisa');
-      return nav;
+      if ( search.length === 0 ) navigate('/pesquisa');
     };
     backToSelectSearch();
   });
