@@ -4,6 +4,7 @@ import Search from '../pages/Search';
 import SearchResult from '../pages/SearchResult';
 import Header from './Header';
 import Menu from './Menu';
+import About from '../pages/About';
 import Home from '../pages/Home';
 
 function Content() {
@@ -15,6 +16,7 @@ function Content() {
         <Routes>
           <Route path="/" element={ <Home /> } />
           <Route path="/pesquisa" element={ <Search /> } />
+          <Route path="/sobre" element={ <About /> } />
           <Route path="/resultado-pesquisa" element={ <SearchResult /> } />
           {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>

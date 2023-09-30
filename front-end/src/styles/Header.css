@@ -17,12 +17,20 @@
   text-decoration: none;
 }
 
+.navbar a:hover {
+  color: #a49d9d;
+}
+
+.navbar a:active {
+  color: #726666;
+}
+
 .menuNavBar {
   display: none;
 }
 
 @media screen and ( max-width : 650px ) {
-    
+
     .navbar {
       display: none;
     }

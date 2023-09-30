@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Home.css';
+import cadeado from '../image/cadeado.jpg'
 import { useNavigate } from 'react-router-dom';
 
 function Home() {
@@ -24,10 +25,7 @@ function Home() {
       </div>
       <div className="imgContainer">
         <section className="imgContainerTop">
-          {' '}
-        </section>
-        <section className="imgContainerBottom">
-          {' '}
+          <img src={ cadeado } alt="imagem de um cadeado" />
         </section>
       </div>
     </div>
