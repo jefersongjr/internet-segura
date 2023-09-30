@@ -22,7 +22,7 @@ function SearchResult() {
     return () => {
       window.removeEventListener('beforeunload', backToSelectSearch);
     };
-  }, [search, navigate]);
+  });
 
   return (
     <div className="SearchResult">
