@@ -21,7 +21,7 @@ function Menu() {
         <button
           type="button"
           className="buttonMenu"
-          onClick={ () => handleClick('/inicio') }
+          onClick={ () => handleClick('/') }
         >
           Início
         </button>
