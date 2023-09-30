@@ -13,10 +13,15 @@ function SearchResult() {
 
   useEffect(() => {
     const backToSelectSearch = () => {
-      if ( search.length === 0 ) navigate('/pesquisa');
+      if (search.length === 0) {
+        navigate('/pesquisa');
+      }
     };
-    backToSelectSearch();
-  });
+    window.addEventListener('beforeunload', backToSelectSearch);
+    return () => {
+      window.removeEventListener('beforeunload', backToSelectSearch);
+    };
+  }, [search, navigate]);
 
   return (
     <div className="SearchResult">

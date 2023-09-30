@@ -12,6 +12,7 @@ function Search() {
   const handleClick = ({ target }) => {
     const { innerText } = target;
     const filter = data.filter((type) => type.faixa_etaria === innerText.toLowerCase());
+    localStorage.setItem("filter", filter)
     setSearch(filter);
     navigate('/resultado-pesquisa');
   };
