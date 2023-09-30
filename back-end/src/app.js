@@ -5,7 +5,7 @@ const DataRoute = require('./routes/DataRoute');
 const app = express();
 
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://internet-segura.vercel.app',
     optionsSuccessStatus: 200
   }
 
