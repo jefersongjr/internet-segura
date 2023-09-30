@@ -13,7 +13,7 @@ function SearchResult() {
 
   useEffect(() => {
     const backToSelectSearch = () => {
-      console.log(search[0])
+      console.log(search)
       if (search.length === 0) {
         navigate('/pesquisa');
       }
