@@ -37,6 +37,29 @@ foi baseado na modelagem do meu projeto de TCC, denominado "Internet Segura". Ap
  * dev: Inicia o servidor usando nodemon para desenvolvimento.
  * lint: Executa linting usando ESLint.
 
+## Instalação Local e Uso 📖:
+
+```
+
+# Clone este repositório
+$ git clone git@github.com:jefersongjr/internet-segura
+
+# navegue até a pasta do projeto back end
+
+# Instale as dependências.
+$ npm install
+
+# Realize migrações do banco de dados.
+$ npm run migration
+
+#Popule o banco de dados com dados iniciais.
+$  npm run seed
+
+# Inicie o servidor
+$ npm start
+
+```
+
     
 ## Front End:
 
@@ -62,7 +85,7 @@ foi baseado na modelagem do meu projeto de TCC, denominado "Internet Segura". Ap
  * int:styles: Executa linting de estilos usando Stylelint.
  * Executa linting de JavaScript e React usando ESLint.
 
-## Instalação Local e Uso 🔧:
+## Instalação Local e Uso 📖:
 
 ```
 
@@ -72,7 +95,7 @@ $ git clone git@github.com:jefersongjr/internet-segura
 # Acesse a pasta do projeto
 $ navegue até a pasta do projeto front end
 
-# Execute npm install para instalar as dependências.
+# Instale as dependências.
 $ npm install
 
 # Execute o front end:
