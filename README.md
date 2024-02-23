@@ -101,8 +101,11 @@ $ npm install
 # Execute o front end:
 $ npm run dev
 
-```
 
+```
+## Contribuição 🧑‍🤝‍🧑:
+
+Sinta-se à vontade para contribuir! Abra issues para relatar problemas ou envie pull requests com melhorias. Toda colaboração é bem-vinda!
    
 
 
