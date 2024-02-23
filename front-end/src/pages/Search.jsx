@@ -59,7 +59,7 @@ function Search() {
       </button>
         </div>
         <div className='button-section'>
-          <img src={adolescente} width="100%" alt="criança mexendo em tablet" />
+          <img src={ adolescente } width="100%" alt="adolescente mexendo em tablet" />
         </div>
       </section>
     </div>
