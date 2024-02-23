@@ -1,6 +1,6 @@
 # Internet-segura 🔐
 
-![preview](https://github.com/jefersongjr/internet-segura/blob/main/front-end/src/image/preview.gif?raw=true){width=800 height=200}
+<img src="https://github.com/jefersongjr/internet-segura/blob/main/front-end/src/image/preview.gif?raw=true" alt="Texto Alternativo" width="1000">
 
 ##  🚀📋 Sobre:
 
