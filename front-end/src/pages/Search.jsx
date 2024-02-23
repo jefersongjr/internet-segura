@@ -8,23 +8,24 @@ import '../styles/Search.css';
 function Search() {
   const { data, setSearch } = useContext(SearchContext);
   const navigate = useNavigate();
+  const [filter, setFilter] = useState(null);
 
   const handleClick = ({ target }) => {
     const { innerText } = target;
-    const filter = data.filter((type) => type.faixa_etaria === innerText.toLowerCase());
-    localStorage.setItem("filter", JSON.stringify(filter));
-    setSearch(filter);
+    console.log(innerText);
+    const newFilter = data.filter((type) => type.faixa_etaria === innerText.toLowerCase());
+    setFilter(newFilter);
+    setSearch(newFilter);
     navigate('/resultado-pesquisa');
   };
 
-  // Verifique se há dados da pesquisa armazenados no localStorage ao carregar o componente
+  // Verifique se há dados da pesquisa no estado local ao carregar o componente
   useEffect(() => {
-    const storedFilter = localStorage.getItem("filter");
-    if (storedFilter) {
-      setSearch(JSON.parse(storedFilter));
+    if (filter) {
+      // Faça qualquer lógica adicional necessária
       navigate('/resultado-pesquisa');
     }
-  }, [setSearch, navigate]);
+  }, [filter, navigate]);
 
   return (
     <div className="Search">
