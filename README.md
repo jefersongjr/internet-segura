@@ -105,7 +105,7 @@ $ npm run dev
 ```
 ## Contribuição 🧑‍🤝‍🧑:
 
-Sinta-se à vontade para contribuir! Abra issues para relatar problemas ou envie pull requests com melhorias. Toda colaboração é bem-vinda!
+Sinta-se à vontade para contribuir! Abra issues para relatar problemas ou envie pull requests ( os pull requests devem começar com "feature-) com melhorias. Toda colaboração é bem-vinda!
    
 
 
