@@ -12,10 +12,19 @@ function Search() {
   const handleClick = ({ target }) => {
     const { innerText } = target;
     const filter = data.filter((type) => type.faixa_etaria === innerText.toLowerCase());
-    localStorage.setItem("filter", JSON.stringify(filter))
+    localStorage.setItem("filter", JSON.stringify(filter));
     setSearch(filter);
     navigate('/resultado-pesquisa');
   };
+
+  // Verifique se há dados da pesquisa armazenados no localStorage ao carregar o componente
+  useEffect(() => {
+    const storedFilter = localStorage.getItem("filter");
+    if (storedFilter) {
+      setSearch(JSON.parse(storedFilter));
+      navigate('/resultado-pesquisa');
+    }
+  }, [setSearch, navigate]);
 
   return (
     <div className="Search">
