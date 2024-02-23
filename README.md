@@ -1,5 +1,7 @@
 # Internet-segura 🔐
 
+![preview](https://github.com/jefersongjr/internet-segura/blob/main/front-end/src/image/preview.gif?raw=true){width=800 height=200}
+
 ##  🚀📋 Sobre:
 
 **Internet-segura 🔐** Esse foi um projeto desenvolvido por mim ,[Jeferson Gomes](https://www.linkedin.com/in/jefersongjr/),
