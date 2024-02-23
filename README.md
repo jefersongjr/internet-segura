@@ -5,6 +5,8 @@
 **Internet-segura 🔐** Esse foi um projeto desenvolvido por mim ,[Jeferson Gomes](https://www.linkedin.com/in/jefersongjr/),
 foi baseado na modelagem do meu projeto de TCC, denominado "Internet Segura". Após a conclusão do curso, levei a ideia adiante e desenvolvi um website dedicado a abordar os riscos online enfrentados por crianças e adolescentes, oferecendo dicas práticas para garantir uma navegação mais segura.
 
+Confira o resultado aqui: [Internet Segura](https://internet-segura.vercel.app/):
+
 ## 🛠️ Construído com: 
 
  * Node.js
